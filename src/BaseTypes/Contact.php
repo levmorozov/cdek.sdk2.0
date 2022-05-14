@@ -19,7 +19,7 @@ class Contact extends Base
      * @Type("string")
      * @var string
      */
-    public $company = '';
+    public $company;
 
     /**
      * ФИО контактного лица
@@ -34,7 +34,7 @@ class Contact extends Base
      * @Type("string")
      * @var string
      */
-    public $email = '';
+    public $email;
 
     /**
      * Список телефонов
